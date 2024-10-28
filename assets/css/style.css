@@ -1107,12 +1107,13 @@ section {
   width: calc(100% - 5px);
 }
 
-.book-search .search-form .submit-item{
+/* .book-search .search-form .submit-item{
   width: 20%;
-}
+} */
 
 .book-search .search-form .submit-item button{
   font-size: 16px;
+  font-weight: 800;
   margin-right: 8px;
   padding: 8px 25px;
   background: #e45a42;
@@ -1123,15 +1124,14 @@ section {
 }
 
 .book-search .search-form .submit-item button:hover {
-  background: #eb7b68;
+  background: #fff;
+  color: #e45a42;
+  border: 1px solid #e45a42;
 }
 
-.book-search .search-form .refresh-item{
-  width: 20%;
-}
-
-.book-search .search-form .refresh-item a i{
-  font-size: 16px;
+.book-search .search-form .refresh-item a{
+  display: block;
+  height: 100%;
   padding: 8px 25px;
   background: #e45a42;
   border: 1px solid #ddd;
@@ -1140,8 +1140,17 @@ section {
   transition: 0.3s;
 }
 
-.book-search .search-form .refresh-item a i:hover {
-  background: #eb7b68;
+.book-search .search-form .refresh-item a:hover {
+  background: #fff;
+  border: 1px solid #e45a42;
+}
+
+.book-search .search-form .refresh-item a i{
+  font-size: 16px;
+}
+
+.book-search .search-form .refresh-item a:hover i{
+  color: #e45a42;
 }
 
 /*--------------------------------------------------------------
